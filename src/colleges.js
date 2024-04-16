@@ -1,10 +1,11 @@
 export const colleges = [
   {
     featured: false,
-    college_logo: "https://i.imgur.com/bIu4tDU.png",
-    college_name: "BT Macras Indian Institute of Technology",
-    college_city: "TTM",
-    college_state: "Chennai",
+    college_logo:
+      "https://logowik.com/content/uploads/images/iit-delhi-indian-institute-of-technology-delhi5001.jpg",
+    college_name: "Indian Institute of Technology Delhi",
+    college_city: "New Delhi",
+    college_state: "Delhi NCR",
     institutions_approved: ["AICTE"],
     last_year_jee_advanced_btech_cse_cutoff: 155,
     course_fees: "2,07,550",

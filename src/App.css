@@ -21,7 +21,7 @@ body {
 .table-header {
   font-weight: bold;
   background-color: rgb(142, 192, 192);
-  font-size: small;
+  font-size: medium;
   color: white;
   padding: 1rem;
   border: 1px solid #ddd;
@@ -40,11 +40,32 @@ body {
   margin-left: 10px;
 }
 
-.course-fees,
-.placement,
-.user-reviews,
-.ranking {
-  /* Removed text-align: center for responsive layout */
+.name {
+  color: rgb(112, 202, 202);
+  font-size: large;
+}
+
+.location {
+  font-size: small;
+}
+
+.approval {
+  font-size: small;
+}
+
+.rank {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: rgb(248, 248, 161);
+  width: fit-content;
+  padding: 2px 4px;
+  border-left: 2px solid orangered;
+  font-size: x-small;
+}
+
+.course {
+  color: orangered;
 }
 
 @media (max-width: 768px) {

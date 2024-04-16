@@ -21,7 +21,7 @@ const CollegeTable = () => {
     <div
       className="container"
       onScroll={handleScroll}
-      style={{ height: "90vh", overflowY: "auto" }}
+      style={{ height: "70vh", overflowY: "auto" }}
     >
       <table className="college-table">
         <thead>
@@ -47,16 +47,29 @@ const CollegeTable = () => {
                     src={college.college_logo}
                     alt={college.college_name}
                     width="50"
-                    height="50"
+                    height="40"
                   />
                   <div className="college-info">
-                    {college.college_name} <br />
-                    <span>{`${college.college_city}, ${college.college_state}`}</span>{" "}
+                    <span className="name">
+                      {college.college_name}, {college.college_city}
+                    </span>{" "}
                     <br />
-                    <span>{college.institutions_approved.join(", ")}</span>{" "}
+                    <div>
+                      <span className="location">{`${college.college_city}, ${college.college_state}`}</span>{" "}
+                      |{" "}
+                      <span className="approval">
+                        {college.institutions_approved.join(", ")} Approved
+                      </span>
+                    </div>
                     <br />
-                    <span>{`JEE Adv CSE Cutoff: ${college.last_year_jee_advanced_btech_cse_cutoff}`}</span>
+                    <div className="rank">
+                      <span className="course">
+                        B. Tech, Computer Science And Engineering
+                      </span>
+                      <span className="cuttoff">{`JEE-Advanced 2023 Cutoff: ${college.last_year_jee_advanced_btech_cse_cutoff}`}</span>
+                    </div>
                   </div>
+                  <div className="footer"></div>
                 </div>
               </td>
               <td className="course-fees">{college.course_fees}</td>
