@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 2rem 4rem;
+  font-family: sans-serif;
+}
+
+.college-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.table-header th,
+.table-row td,
+.featured-row td {
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  vertical-align: top;
+}
+
+.table-header {
+  font-weight: bold;
+  background-color: rgb(142, 192, 192);
+  font-size: small;
+  color: white;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.colleges {
+  display: flex;
+}
+
+.featured-row {
+  background-color: rgb(253, 223, 210);
+}
+
+.college-info {
+  margin-left: 10px;
+}
+
+.course-fees,
+.placement,
+.user-reviews,
+.ranking {
+  /* Removed text-align: center for responsive layout */
+}
+
+@media (max-width: 768px) {
+  .college-table {
+    font-size: 0.8rem;
+  }
+
+  .college-info {
+    margin-left: 5px;
+  }
+
+  .college-info img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .college-table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .table-header,
+  .table-row,
+  .featured-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .table-header,
+  .table-row,
+  .featured-row td:nth-child(1),
+  .featured-row td:nth-child(2),
+  .featured-row td:nth-child(6) {
+    flex: 1;
+  }
+
+  .college-info {
+    margin: 0;
+  }
+}
