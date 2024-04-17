@@ -441,7 +441,7 @@ export const colleges = [
   {
     featured: false,
     college_logo:
-      "https://logowik.com/content/uploads/images/iit-mandi-indian-institute-of-technology-mandi5013.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/a/aa/Indian_Institute_of_Technology_Mandi_Logo.png",
     college_name: "Indian Institute of Technology Mandi",
     college_city: "Mandi",
     college_state: "Himachal Pradesh",
@@ -461,7 +461,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/en/e/eb/PSG_College_of_Technology_logo.png",
     college_name: "PSG College of Technology",
     college_city: "Coimbatore",
     college_state: "Tamil Nadu",
@@ -481,7 +482,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/en/d/d2/Birla_Institute_of_Technology_Mesra.png",
     college_name: "Birla Institute of Technology, Mesra",
     college_city: "Ranchi",
     college_state: "Jharkhand",
@@ -501,7 +503,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/en/b/b5/DTU%2C_Delhi_official_logo.png",
     college_name: "Delhi Technological University",
     college_city: "New Delhi",
     college_state: "Delhi NCR",
@@ -521,7 +524,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/IIT_Hyderabad_Insignia.svg/1200px-IIT_Hyderabad_Insignia.svg.png",
     college_name: "Indian Institute of Information Technology, Hyderabad",
     college_city: "Hyderabad",
     college_state: "Telangana",
@@ -541,7 +545,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Netaji_Subhas_University_of_Technology.svg/1200px-Netaji_Subhas_University_of_Technology.svg.png",
     college_name: "Netaji Subhas University of Technology",
     college_city: "New Delhi",
     college_state: "Delhi NCR",
@@ -561,7 +566,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/en/d/d8/BIT_Mesra_logo.png",
     college_name: "Birla Institute of Technology, Patna",
     college_city: "Patna",
     college_state: "Bihar",
@@ -581,7 +587,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/IIIT_Bangalore_Logo.svg/1200px-IIIT_Bangalore_Logo.svg.png",
     college_name:
       "International Institute of Information Technology, Bangalore",
     college_city: "Bengaluru",
@@ -602,7 +609,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/en/f/f0/College_of_Engineering%2C_Pune_logo.jpg",
     college_name: "College of Engineering, Pune",
     college_city: "Pune",
     college_state: "Maharashtra",
@@ -622,7 +630,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREu_x3fM9MOZJ_qJGrZt4olhVsQF3sVq8xn6kXeUXYtw&s",
     college_name: "Jamia Millia Islamia",
     college_city: "New Delhi",
     college_state: "Delhi NCR",
@@ -643,7 +652,7 @@ export const colleges = [
   {
     featured: false,
     college_logo:
-      "https://logowik.com/content/uploads/images/iit-gandhinagar-indian-institute-of-technology-gandhinagar5014.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/IIT_Gandhinagar_Logo.svg/1200px-IIT_Gandhinagar_Logo.svg.png",
     college_name: "Indian Institute of Technology Gandhinagar",
     college_city: "Gandhinagar",
     college_state: "Gujarat",
@@ -664,7 +673,7 @@ export const colleges = [
   {
     featured: false,
     college_logo:
-      "https://logowik.com/content/uploads/images/iit-jodhpur-indian-institute-of-technology-jodhpur5015.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf4dsR1LrrQwe5kCNwIcedqfiRNslV6VYbNKckzFIiIQ&s",
     college_name: "Indian Institute of Technology Jodhpur",
     college_city: "Jodhpur",
     college_state: "Rajasthan",
@@ -685,7 +694,7 @@ export const colleges = [
   {
     featured: false,
     college_logo:
-      "https://logowik.com/content/uploads/images/iit-bhilai-indian-institute-of-technology-bhilai5016.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWiaWNOTNqxRFpIuqsJPXKeAY0KRzPuwr-CBgOMkcEuA&s",
     college_name: "Indian Institute of Technology Bhilai",
     college_city: "Bhilai",
     college_state: "Chhattisgarh",
@@ -706,7 +715,7 @@ export const colleges = [
   {
     featured: false,
     college_logo:
-      "https://logowik.com/content/uploads/images/iit-goa-indian-institute-of-technology-goa5017.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Indian_Institute_of_Technology_Goa_Logo.svg/800px-Indian_Institute_of_Technology_Goa_Logo.svg.png",
     college_name: "Indian Institute of Technology Goa",
     college_city: "Goa",
     college_state: "Goa",
@@ -726,7 +735,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/en/1/1b/NIT_Surat_Logo.svg",
     college_name: "Sardar Vallabhbhai National Institute of Technology",
     college_city: "Surat",
     college_state: "Gujarat",
@@ -746,7 +756,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/en/1/1d/BIT_Mesra_Ranchi_logo_fb_logo.jpg",
     college_name: "Birla Institute of Technology, Deoghar",
     college_city: "Deoghar",
     college_state: "Jharkhand",
@@ -766,7 +777,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/en/f/f1/Pandit_Deendayal_Energy_University_logo.png",
     college_name: "Pandit Deendayal Petroleum University",
     college_city: "Gandhinagar",
     college_state: "Gujarat",
@@ -786,7 +798,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/en/a/aa/Indian_Institute_of_Technology_Mandi_Logo.png",
     college_name: "Indian Institute of Technology, Mandi",
     college_city: "Mandi",
     college_state: "Himachal Pradesh",
@@ -806,7 +819,7 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo: "https://www.iitrpr.ac.in/sites/default/files/image.jpg",
     college_name: "Indian Institute of Technology, Ropar",
     college_city: "Ropar",
     college_state: "Punjab",
@@ -826,7 +839,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIPhY8Dy7BBEyRdAAo-QnmXwwRg5WL7rtGQLc4V0Nqfw&s",
     college_name: "Thapar Institute of Engineering & Technology",
     college_city: "Patiala",
     college_state: "Punjab",
@@ -846,7 +860,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/en/1/1b/NIT_Surat_Logo.svg",
     college_name: "Sardar Vallabhbhai National Institute of Technology",
     college_city: "Surat",
     college_state: "Gujarat",
@@ -866,7 +881,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/en/1/1d/BIT_Mesra_Ranchi_logo_fb_logo.jpg",
     college_name: "Birla Institute of Technology, Deoghar",
     college_city: "Deoghar",
     college_state: "Jharkhand",
@@ -886,7 +902,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/en/f/f1/Pandit_Deendayal_Energy_University_logo.png",
     college_name: "Pandit Deendayal Petroleum University",
     college_city: "Gandhinagar",
     college_state: "Gujarat",
@@ -906,7 +923,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/en/a/aa/Indian_Institute_of_Technology_Mandi_Logo.png",
     college_name: "Indian Institute of Technology, Mandi",
     college_city: "Mandi",
     college_state: "Himachal Pradesh",
@@ -926,7 +944,7 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo: "https://www.iitrpr.ac.in/sites/default/files/image.jpg",
     college_name: "Indian Institute of Technology, Ropar",
     college_city: "Ropar",
     college_state: "Punjab",
@@ -946,7 +964,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIPhY8Dy7BBEyRdAAo-QnmXwwRg5WL7rtGQLc4V0Nqfw&s",
     college_name: "Thapar Institute of Engineering & Technology",
     college_city: "Patiala",
     college_state: "Punjab",
@@ -966,7 +985,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/en/a/ae/Correct_Logo_of_NIT_Calicut.svg",
     college_name: "National Institute of Technology, Calicut",
     college_city: "Calicut",
     college_state: "Kerala",
@@ -986,7 +1006,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Logo_of_IIT_Bhilai.png/746px-Logo_of_IIT_Bhilai.png",
     college_name: "Indian Institute of Technology, Bhilai",
     college_city: "Bhilai",
     college_state: "Chhattisgarh",
@@ -1006,7 +1027,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/National_Institute_Of_Technology_Silchar_Logo.svg/1200px-National_Institute_Of_Technology_Silchar_Logo.svg.png",
     college_name: "National Institute of Technology, Silchar",
     college_city: "Silchar",
     college_state: "Assam",
