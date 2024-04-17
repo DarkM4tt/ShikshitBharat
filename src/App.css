@@ -40,6 +40,12 @@ body {
   margin-left: 10px;
 }
 
+.fee {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
 .name {
   color: rgb(112, 202, 202);
   font-size: large;

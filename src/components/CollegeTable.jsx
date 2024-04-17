@@ -17,6 +17,26 @@ const CollegeTable = () => {
     }
   };
 
+  const handleFeeSortAscClick = () => {
+    const sortedData = [...tableData].sort((a, b) => {
+      return (
+        parseInt(a.course_fees.replace(/,/g, ""), 10) -
+        parseInt(b.course_fees.replace(/,/g, ""), 10)
+      );
+    });
+    setTableData(sortedData);
+  };
+
+  const handleFeeSortDescClick = () => {
+    const sortedData = [...tableData].sort((a, b) => {
+      return (
+        parseInt(b.course_fees.replace(/,/g, ""), 10) -
+        parseInt(a.course_fees.replace(/,/g, ""), 10)
+      );
+    });
+    setTableData(sortedData);
+  };
+
   return (
     <div
       className="container"
@@ -28,7 +48,13 @@ const CollegeTable = () => {
           <tr>
             <th className="table-header">CD Rank</th>
             <th className="table-header">Colleges</th>
-            <th className="table-header">Course Fees</th>
+            <th className="table-header">
+              <div className="fee">
+                <span>Course Fees</span>
+                <span onClick={handleFeeSortAscClick}>⬇Asc</span>
+                <span onClick={handleFeeSortDescClick}>⬆Desc</span>
+              </div>
+            </th>
             <th className="table-header">Placement</th>
             <th className="table-header">User Reviews</th>
             <th className="table-header">Ranking</th>
