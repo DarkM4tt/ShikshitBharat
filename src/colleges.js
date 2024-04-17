@@ -21,7 +21,7 @@ export const colleges = [
     ranking: 125,
   },
   {
-    featured: true,
+    featured: false,
     college_logo: "https://i.imgur.com/bIu4tDU.png",
     college_name: "BT Macras Indian Institute of Technology",
     college_city: "TTM",
