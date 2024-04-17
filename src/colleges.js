@@ -23,7 +23,7 @@ export const colleges = [
   {
     featured: false,
     college_logo:
-      "https://logowik.com/content/uploads/images/iit-bombay-indian-institute-of-technology-bombay5002.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Indian_Institute_of_Technology_Bombay_Logo.svg/1200px-Indian_Institute_of_Technology_Bombay_Logo.svg.png",
     college_name: "Indian Institute of Technology Bombay",
     college_city: "Mumbai",
     college_state: "Maharashtra",
@@ -43,7 +43,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://w7.pngwing.com/pngs/570/610/png-transparent-birla-institute-of-technology-and-science-pilani-dubai-campus-birla-institute-of-technology-science-pilani-hyderabad-birla-institute-of-technology-science-pilani-goa-student-emblem-people-logo.png",
     college_name: "Birla Institute of Technology and Science, Pilani",
     college_city: "Pilani",
     college_state: "Rajasthan",
@@ -64,7 +65,7 @@ export const colleges = [
   {
     featured: false,
     college_logo:
-      "https://logowik.com/content/uploads/images/iit-kanpur-indian-institute-of-technology-kanpur5003.jpg",
+      "https://www.iitk.ac.in/new/images/page-images/logo/redlogo.jpg",
     college_name: "Indian Institute of Technology Kanpur",
     college_city: "Kanpur",
     college_state: "Uttar Pradesh",
@@ -85,7 +86,7 @@ export const colleges = [
   {
     featured: false,
     college_logo:
-      "https://logowik.com/content/uploads/images/iit-madras-indian-institute-of-technology-madras5004.jpg",
+      "https://w7.pngwing.com/pngs/54/748/png-transparent-indian-institute-of-technology-madras-department-of-management-studies-iit-madras-doctor-of-philosophy-student-indian-institutes-of-technology-student-people-logo-india.png",
     college_name: "Indian Institute of Technology Madras",
     college_city: "Chennai",
     college_state: "Tamil Nadu",
@@ -106,7 +107,7 @@ export const colleges = [
   {
     featured: false,
     college_logo:
-      "https://logowik.com/content/uploads/images/iit-roorkee-indian-institute-of-technology-roorkee5005.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/6/6f/Indian_Institute_of_Technology_Roorkee_logo.png",
     college_name: "Indian Institute of Technology Roorkee",
     college_city: "Roorkee",
     college_state: "Uttarakhand",
@@ -127,7 +128,7 @@ export const colleges = [
   {
     featured: false,
     college_logo:
-      "https://logowik.com/content/uploads/images/iit-guwahati-indian-institute-of-technology-guwahati5006.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/IIT_Guwahati_Logo.svg/1200px-IIT_Guwahati_Logo.svg.png",
     college_name: "Indian Institute of Technology Guwahati",
     college_city: "Guwahati",
     college_state: "Assam",
@@ -147,7 +148,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Vellore_Institute_of_Technology_seal_2017.svg/800px-Vellore_Institute_of_Technology_seal_2017.svg.png",
     college_name: "Vellore Institute of Technology",
     college_city: "Vellore",
     college_state: "Tamil Nadu",
@@ -167,7 +169,7 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo: "https://upload.wikimedia.org/wikipedia/en/f/fe/Srmseal.png",
     college_name: "SRM Institute of Science and Technology",
     college_city: "Chennai",
     college_state: "Tamil Nadu",
@@ -187,7 +189,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://pbs.twimg.com/profile_images/1235596574362746881/YpiOmeJD_400x400.jpg",
     college_name: "Manipal Institute of Technology",
     college_city: "Manipal",
     college_state: "Karnataka",
@@ -207,7 +210,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/BITS_Pilani-Logo.svg/1200px-BITS_Pilani-Logo.svg.png",
     college_name: "BITS, Pilani - Hyderabad Campus",
     college_city: "Hyderabad",
     college_state: "Telangana",
@@ -227,7 +231,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://i.pinimg.com/736x/70/85/a4/7085a4e10fca016c9897b97b8e14b0a1.jpg",
     college_name: "Amity University",
     college_city: "Noida",
     college_state: "Uttar Pradesh",
@@ -247,7 +252,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/en/d/dd/Official_Logo_of_CHRIST%28Deemed_to_be_University%29%2C_bangalore.jpg",
     college_name: "Christ University",
     college_city: "Bengaluru",
     college_state: "Karnataka",
@@ -267,7 +273,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://upload.wikimedia.org/wikipedia/en/3/3a/Lovely_Professional_University_logo.png",
     college_name: "Lovely Professional University",
     college_city: "Jalandhar",
     college_state: "Punjab",
@@ -287,7 +294,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA1W2PGDfKubVWDJvvciyCzEHoOgHhCKn8vvAbWwkl7w&s",
     college_name: "Symbiosis Institute of Technology",
     college_city: "Pune",
     college_state: "Maharashtra",
@@ -307,7 +315,8 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo: "https://example.com/college_logo.jpg",
+    college_logo:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIPhY8Dy7BBEyRdAAo-QnmXwwRg5WL7rtGQLc4V0Nqfw&s",
     college_name: "Thapar Institute of Engineering and Technology",
     college_city: "Patiala",
     college_state: "Punjab",
@@ -328,7 +337,7 @@ export const colleges = [
   {
     featured: false,
     college_logo:
-      "https://logowik.com/content/uploads/images/iit-bhubaneswar-indian-institute-of-technology-bhubaneswar5007.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Indian_Institute_of_Technology_Bhubaneswar_Logo.svg/1200px-Indian_Institute_of_Technology_Bhubaneswar_Logo.svg.png",
     college_name: "Indian Institute of Technology Bhubaneswar",
     college_city: "Bhubaneswar",
     college_state: "Odisha",
@@ -349,7 +358,7 @@ export const colleges = [
   {
     featured: false,
     college_logo:
-      "https://logowik.com/content/uploads/images/iit-hyderabad-indian-institute-of-technology-hyderabad5008.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/IIT_Hyderabad_Insignia.svg/1200px-IIT_Hyderabad_Insignia.svg.png",
     college_name: "Indian Institute of Technology Hyderabad",
     college_city: "Hyderabad",
     college_state: "Telangana",
@@ -370,7 +379,7 @@ export const colleges = [
   {
     featured: false,
     college_logo:
-      "https://logowik.com/content/uploads/images/iit-kharagpur-indian-institute-of-technology-kharagpur5010.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/IIT_Kharagpur_Logo.svg/1200px-IIT_Kharagpur_Logo.svg.png",
     college_name: "Indian Institute of Technology Kharagpur",
     college_city: "Kharagpur",
     college_state: "West Bengal",
@@ -390,8 +399,7 @@ export const colleges = [
   },
   {
     featured: false,
-    college_logo:
-      "https://logowik.com/content/uploads/images/iit-ropar-indian-institute-of-technology-ropar5011.jpg",
+    college_logo: "https://www.iitrpr.ac.in/sites/default/files/image.jpg",
     college_name: "Indian Institute of Technology Ropar",
     college_city: "Ropar",
     college_state: "Punjab",
@@ -412,7 +420,7 @@ export const colleges = [
   {
     featured: false,
     college_logo:
-      "https://logowik.com/content/uploads/images/iit-patna-indian-institute-of-technology-patna5012.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Indian_Institute_of_Technology%2C_Patna.svg/1200px-Indian_Institute_of_Technology%2C_Patna.svg.png",
     college_name: "Indian Institute of Technology Patna",
     college_city: "Patna",
     college_state: "Bihar",

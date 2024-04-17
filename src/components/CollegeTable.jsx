@@ -4,6 +4,17 @@ import { colleges } from "../colleges";
 const CollegeTable = () => {
   const [tableData, setTableData] = useState(colleges.slice(0, 10));
   const [hasMore, setHasMore] = useState(colleges.length > 10);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [searchedResults, setSearchedResults] = useState(false);
+
+  const handleSearch = () => {
+    setSearchedResults(true);
+    const filteredData = colleges.filter((college) =>
+      college.college_name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setTableData(filteredData);
+    setSearchTerm("");
+  };
 
   const handleScroll = (event) => {
     const { scrollTop, scrollHeight, clientHeight } = event.target;
@@ -37,12 +48,53 @@ const CollegeTable = () => {
     setTableData(sortedData);
   };
 
+  const handleSortAscRating = () => {
+    console.log("Clicked");
+    const sortedData = [...tableData].sort((a, b) => {
+      return a.user_reviews.rating - b.user_reviews.rating;
+    });
+    setTableData(sortedData);
+  };
+
+  const handleSortDescRating = () => {
+    const sortedData = [...tableData].sort((a, b) => {
+      return b.user_reviews.rating - a.user_reviews.rating;
+    });
+    setTableData(sortedData);
+  };
+
+  const handleSortAscRanking = () => {
+    const sortedData = [...tableData].sort((a, b) => {
+      return a.ranking - b.ranking;
+    });
+    setTableData(sortedData);
+  };
+
+  const handleSortDescRanking = () => {
+    const sortedData = [...tableData].sort((a, b) => {
+      return b.ranking - a.ranking;
+    });
+    setTableData(sortedData);
+  };
+
   return (
     <div
       className="container"
       onScroll={handleScroll}
       style={{ height: "90vh", overflowY: "auto" }}
     >
+      <div className="search">
+        <input
+          type="text"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          placeholder="Search College by Name"
+          className="input"
+        />
+        <button className="searchBtn" onClick={handleSearch}>
+          Search
+        </button>
+      </div>
       <table className="college-table">
         <thead>
           <tr>
@@ -51,13 +103,37 @@ const CollegeTable = () => {
             <th className="table-header">
               <div className="fee">
                 <span>Course Fees</span>
-                <span onClick={handleFeeSortAscClick}>⬇Asc</span>
-                <span onClick={handleFeeSortDescClick}>⬆Desc</span>
+                <span className="asc" onClick={handleFeeSortAscClick}>
+                  ⬇ Asc
+                </span>
+                <span className="desc" onClick={handleFeeSortDescClick}>
+                  ⬆ Desc
+                </span>
               </div>
             </th>
             <th className="table-header">Placement</th>
-            <th className="table-header">User Reviews</th>
-            <th className="table-header">Ranking</th>
+            <th className="table-header">
+              <div className="fee">
+                <span>User Reviews</span>
+                <span className="asc" onClick={handleSortAscRating}>
+                  ⬇ Asc
+                </span>
+                <span className="desc" onClick={handleSortDescRating}>
+                  ⬆ Desc
+                </span>
+              </div>
+            </th>
+            <th className="table-header">
+              <div className="fee">
+                <span>Ranking</span>
+                <span className="asc" onClick={handleSortAscRanking}>
+                  ⬇ Asc
+                </span>
+                <span className="desc" onClick={handleSortDescRanking}>
+                  ⬆ Desc
+                </span>
+              </div>
+            </th>
           </tr>
         </thead>
         <tbody>
@@ -167,7 +243,7 @@ const CollegeTable = () => {
               </td>
             </tr>
           ))}
-          {hasMore && <div>Loading...</div>}
+          {!searchedResults && hasMore && <div>Loading...</div>}
         </tbody>
       </table>
     </div>
